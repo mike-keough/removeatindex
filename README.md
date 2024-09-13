@@ -9,7 +9,7 @@ To install RemoveAtIndex, use `go get`:
 ```bash
 go get github.com/mike-keough/removeatindex
 ```
-**Useage:
+**Useage:**
 ```go
 
 package main
@@ -28,26 +28,26 @@ func main() {
 
 ```
 
-**API: 
+**API:**
 ```go 
 type Slice []interface{} 
 ```
 Slice is a slice of empty interfaces, allowing it to hold elements of any type.
 
-**Function:
+**Function:**
 ```go
 func RemoveAtIndex(s Slice, index int) Slice
 ```
 RemoveAtIndex removes the element at the specified index from the slice and returns the modified slice. If the index is out of bounds, it returns the original slice unchanged.
 
-**Features:
+**Features:**
 *Remove elements from slices of any type
 *Efficient implementation using Go's built-in append function
 *Preserves the order of remaining elements
 *Handles out-of-bounds indices gracefully
 
-**Contributing
+**Contributing:**
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-**License:
+**License:**
 This project is licensed under the MIT License - see the LICENSE file for details.
